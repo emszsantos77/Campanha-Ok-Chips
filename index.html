@@ -108,7 +108,7 @@
     }
 
     .cards {
-      display: grid; grid-template-columns: repeat(4, 1fr);
+      display: grid; grid-template-columns: repeat(3, 1fr);
       gap: 12px; margin-bottom: 16px;
     }
     .card {
@@ -201,7 +201,7 @@
         <span class="pill-sub" id="statusTxt">Carregando…</span>
       </div>
       <div class="pill-meta">
-        <div class="pill-label">Objetivo SELL OUT</div>
+        <div class="pill-label">Objetivo SELL IN</div>
         <div class="pill-val">R$ 50.000,00</div>
       </div>
     </div>
@@ -210,7 +210,7 @@
   <div class="infobar">
     <div class="txt">
       <b>Campanha:</b> Bateu Levou &nbsp;—&nbsp;
-      <b>Objetivo SELL OUT:</b> R$ 50.000,00 &nbsp;|&nbsp;
+      <b>Objetivo SELL IN:</b> R$ 50.000,00 &nbsp;|&nbsp;
       <b>Objetivo Positivações:</b> 600 clientes<br/>
       <b>Vendedores:</b> Top 10 em positivações &nbsp;|&nbsp;
       <b>Supervisores:</b> Top 2 &nbsp;|&nbsp;
@@ -234,14 +234,12 @@
   </div>
 
   <div class="cards">
+    <!-- Card 1: Total SELL OUT — sem barra de progresso -->
     <div class="card">
       <div class="card-label">Total SELL OUT</div>
       <div class="card-val" id="kpiVendas">R$ 0,00</div>
-      <div class="progress-bar-wrap">
-        <div class="progress-bar-fill" id="progressSellIn" style="width:0%"></div>
-      </div>
-      <div class="progress-label" id="progressSellInLabel">0% do objetivo R$ 50.000,00</div>
     </div>
+    <!-- Card 2: Positivações — mantém barra -->
     <div class="card">
       <div class="card-label">Objetivo Positivações</div>
       <div class="card-val" id="kpiPosit">0</div>
@@ -250,16 +248,13 @@
       </div>
       <div class="progress-label" id="progressPositLabel">0% do objetivo 600</div>
     </div>
+    <!-- Card 3: Ticket Médio -->
     <div class="card">
       <div class="card-label">Ticket Médio</div>
       <div class="card-val" id="kpiTicket">R$ 0,00</div>
       <div class="card-hint">Total vendas ÷ clientes únicos</div>
     </div>
-    <div class="card">
-      <div class="card-label">Status Campanha</div>
-      <div class="card-val" id="kpiCampanha">—</div>
-      <div class="card-hint" id="kpiCampanhaHint">Aguardando dados…</div>
-    </div>
+    <!-- Card Status Campanha REMOVIDO -->
   </div>
 
   <div class="table-wrap">
@@ -283,8 +278,6 @@
   const kpiVendas        = document.getElementById('kpiVendas');
   const kpiPosit         = document.getElementById('kpiPosit');
   const kpiTicket        = document.getElementById('kpiTicket');
-  const kpiCampanha      = document.getElementById('kpiCampanha');
-  const kpiCampanhaHint  = document.getElementById('kpiCampanhaHint');
   const dotStatus        = document.getElementById('dotStatus');
   const statusTxt        = document.getElementById('statusTxt');
 
@@ -345,12 +338,9 @@
     kpiPosit.textContent  = posit;
     kpiTicket.textContent = fmtBRL(vendas / (posit||1));
 
-    const pctSellOut = Math.min((vendas / META_SELL_OUT) * 100, 100);
-    const pctPosit   = Math.min((posit  / META_POSIT)   * 100, 100);
-    document.getElementById('progressSellIn').style.width      = pctSellOut + '%';
-    document.getElementById('progressSellInLabel').textContent = `${pctSellOut.toFixed(1)}% do objetivo R$ 50.000,00`;
-    document.getElementById('progressPosit').style.width       = pctPosit + '%';
-    document.getElementById('progressPositLabel').textContent  = `${pctPosit.toFixed(1)}% do objetivo 600`;
+    const pctPosit = Math.min((posit / META_POSIT) * 100, 100);
+    document.getElementById('progressPosit').style.width      = pctPosit + '%';
+    document.getElementById('progressPositLabel').textContent = `${pctPosit.toFixed(1)}% do objetivo 600`;
   }
 
   function groupBy(data, field) {
@@ -365,7 +355,6 @@
     return g;
   }
 
-  /* ── Ranking: 1º critério positivações, desempate maior SELL OUT ── */
   function rankVendedores(raw) {
     const g = groupBy(raw, 'nome_vendedor');
     return Object.entries(g).map(([nome, info]) => ({
@@ -375,7 +364,7 @@
       ticketMedio:  info.totalVendas / (info.clientesUnicos.size||1),
     })).sort((a, b) => {
       const dp = b.positivacoes - a.positivacoes;
-      return dp !== 0 ? dp : b.totalVendas - a.totalVendas; // desempate: maior SELL OUT
+      return dp !== 0 ? dp : b.totalVendas - a.totalVendas;
     });
   }
 
@@ -388,7 +377,7 @@
       ticketMedio:  info.totalVendas / (info.clientesUnicos.size||1),
     })).sort((a, b) => {
       const dp = b.positivacoes - a.positivacoes;
-      return dp !== 0 ? dp : b.totalVendas - a.totalVendas; // desempate: maior SELL OUT
+      return dp !== 0 ? dp : b.totalVendas - a.totalVendas;
     });
   }
 
@@ -416,11 +405,6 @@
     statusTxt.textContent = campanhaAtiva
       ? `Ativada · SELL OUT: ${fmtBRL(campanhaTotalPeriodo)}`
       : `Não ativada · SELL OUT: ${fmtBRL(campanhaTotalPeriodo)}`;
-
-    kpiCampanha.textContent     = campanhaAtiva ? '✅ Ativa' : '❌ Inativa';
-    kpiCampanhaHint.textContent = campanhaAtiva
-      ? `SELL OUT ≥ R$ 50.000 e Posit. ≥ 600`
-      : `Precisa: R$ 50.000 SELL OUT + 600 positivações`;
 
     let ranking = [];
     if      (activeTab === 'vendedores')   ranking = rankVendedores(filteredData);
