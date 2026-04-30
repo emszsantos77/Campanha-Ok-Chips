@@ -990,6 +990,17 @@
     "source_file": "chips.xlsx"
   },
   {
+    "pedido_unico": "1157497.0",
+    "cnpj_cpf": "41.969.475/0001-78",
+    "emissao": "2026-04-28",
+    "vlr_total": 34.0,
+    "nome_vendedor": "BRUNO OLIVEIRA",
+    "supervisor": "ANDREIA MEDEIROS",
+    "gerente": "Marivaldo",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
     "pedido_unico": "1137019.0",
     "cnpj_cpf": "64.632.117/0001-70",
     "emissao": "2026-04-15",
@@ -1158,6 +1169,39 @@
     "pedido_unico": "1137013.0",
     "cnpj_cpf": "41.969.475/0001-78",
     "emissao": "2026-04-15",
+    "vlr_total": 18.0,
+    "nome_vendedor": "BRUNO OLIVEIRA",
+    "supervisor": "ANDREIA MEDEIROS",
+    "gerente": "Marivaldo",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157497.0",
+    "cnpj_cpf": "41.969.475/0001-78",
+    "emissao": "2026-04-28",
+    "vlr_total": 18.0,
+    "nome_vendedor": "BRUNO OLIVEIRA",
+    "supervisor": "ANDREIA MEDEIROS",
+    "gerente": "Marivaldo",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157497.0",
+    "cnpj_cpf": "41.969.475/0001-78",
+    "emissao": "2026-04-28",
+    "vlr_total": 35.0,
+    "nome_vendedor": "BRUNO OLIVEIRA",
+    "supervisor": "ANDREIA MEDEIROS",
+    "gerente": "Marivaldo",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157497.0",
+    "cnpj_cpf": "41.969.475/0001-78",
+    "emissao": "2026-04-28",
     "vlr_total": 18.0,
     "nome_vendedor": "BRUNO OLIVEIRA",
     "supervisor": "ANDREIA MEDEIROS",
@@ -5005,6 +5049,17 @@
     "source_file": "chips.xlsx"
   },
   {
+    "pedido_unico": "1158067.0",
+    "cnpj_cpf": "05.554.508/0001-55",
+    "emissao": "2026-04-28",
+    "vlr_total": 57.0,
+    "nome_vendedor": "CAMILA FERREIRA",
+    "supervisor": "MARIVALDO SERRA",
+    "gerente": "Marivaldo",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
     "pedido_unico": "1135155.0",
     "cnpj_cpf": "03.451.160/0001-45",
     "emissao": "2026-04-14",
@@ -5907,6 +5962,17 @@
     "source_file": "chips.xlsx"
   },
   {
+    "pedido_unico": "1157046.0",
+    "cnpj_cpf": "24.517.894/0001-50",
+    "emissao": "2026-04-28",
+    "vlr_total": 17.0,
+    "nome_vendedor": "HELLEN GOMES",
+    "supervisor": "MARIVALDO SERRA",
+    "gerente": "Marivaldo",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
     "pedido_unico": "1152001.0",
     "cnpj_cpf": "13.035.601/0001-81",
     "emissao": "2026-04-24",
@@ -5984,7 +6050,7 @@
     "source_file": "chips.xlsx"
   },
   {
-    "pedido_unico": "P544",
+    "pedido_unico": "P550",
     "cnpj_cpf": "58.190.907/0001-40",
     "emissao": "2026-04-23",
     "vlr_total": 52.0,
@@ -5995,10 +6061,43 @@
     "source_file": "chips.xlsx"
   },
   {
-    "pedido_unico": "P545",
+    "pedido_unico": "P551",
     "cnpj_cpf": "58.190.907/0001-40",
     "emissao": "2026-04-23",
     "vlr_total": 34.0,
+    "nome_vendedor": "HELLEN GOMES",
+    "supervisor": "MARIVALDO SERRA",
+    "gerente": "Marivaldo",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157532.0",
+    "cnpj_cpf": "46.404.230/0001-17",
+    "emissao": "2026-04-28",
+    "vlr_total": 17.0,
+    "nome_vendedor": "HELLEN GOMES",
+    "supervisor": "MARIVALDO SERRA",
+    "gerente": "Marivaldo",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157481.0",
+    "cnpj_cpf": "18.128.621/0001-10",
+    "emissao": "2026-04-28",
+    "vlr_total": 17.0,
+    "nome_vendedor": "HELLEN GOMES",
+    "supervisor": "MARIVALDO SERRA",
+    "gerente": "Marivaldo",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1158049.0",
+    "cnpj_cpf": "62.409.440/0001-54",
+    "emissao": "2026-04-28",
+    "vlr_total": 74.0,
     "nome_vendedor": "HELLEN GOMES",
     "supervisor": "MARIVALDO SERRA",
     "gerente": "Marivaldo",
@@ -6010,6 +6109,17 @@
     "cnpj_cpf": "64.143.710/0001-53",
     "emissao": "2026-04-24",
     "vlr_total": 52.0,
+    "nome_vendedor": "HELLEN GOMES",
+    "supervisor": "MARIVALDO SERRA",
+    "gerente": "Marivaldo",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1156408.0",
+    "cnpj_cpf": "100.897.855-84",
+    "emissao": "2026-04-27",
+    "vlr_total": 17.0,
     "nome_vendedor": "HELLEN GOMES",
     "supervisor": "MARIVALDO SERRA",
     "gerente": "Marivaldo",
@@ -6171,6 +6281,50 @@
     "source_file": "chips.xlsx"
   },
   {
+    "pedido_unico": "1157045.0",
+    "cnpj_cpf": "10.976.684/0001-15",
+    "emissao": "2026-04-28",
+    "vlr_total": 9.0,
+    "nome_vendedor": "HELLEN GOMES",
+    "supervisor": "MARIVALDO SERRA",
+    "gerente": "Marivaldo",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157045.0",
+    "cnpj_cpf": "10.976.684/0001-15",
+    "emissao": "2026-04-28",
+    "vlr_total": 14.0,
+    "nome_vendedor": "HELLEN GOMES",
+    "supervisor": "MARIVALDO SERRA",
+    "gerente": "Marivaldo",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157045.0",
+    "cnpj_cpf": "10.976.684/0001-15",
+    "emissao": "2026-04-28",
+    "vlr_total": 9.0,
+    "nome_vendedor": "HELLEN GOMES",
+    "supervisor": "MARIVALDO SERRA",
+    "gerente": "Marivaldo",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157045.0",
+    "cnpj_cpf": "10.976.684/0001-15",
+    "emissao": "2026-04-28",
+    "vlr_total": 9.0,
+    "nome_vendedor": "HELLEN GOMES",
+    "supervisor": "MARIVALDO SERRA",
+    "gerente": "Marivaldo",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
     "pedido_unico": "1145950.0",
     "cnpj_cpf": "47.921.310/0001-02",
     "emissao": "2026-04-20",
@@ -6226,7 +6380,7 @@
     "source_file": "chips.xlsx"
   },
   {
-    "pedido_unico": "P566",
+    "pedido_unico": "P580",
     "cnpj_cpf": "47.921.310/0001-02",
     "emissao": "2026-04-23",
     "vlr_total": 46.0,
@@ -6237,7 +6391,7 @@
     "source_file": "chips.xlsx"
   },
   {
-    "pedido_unico": "P567",
+    "pedido_unico": "P581",
     "cnpj_cpf": "47.921.310/0001-02",
     "emissao": "2026-04-23",
     "vlr_total": 70.0,
@@ -6248,7 +6402,7 @@
     "source_file": "chips.xlsx"
   },
   {
-    "pedido_unico": "P568",
+    "pedido_unico": "P582",
     "cnpj_cpf": "47.921.310/0001-02",
     "emissao": "2026-04-23",
     "vlr_total": 70.0,
@@ -6259,7 +6413,7 @@
     "source_file": "chips.xlsx"
   },
   {
-    "pedido_unico": "P569",
+    "pedido_unico": "P583",
     "cnpj_cpf": "47.921.310/0001-02",
     "emissao": "2026-04-23",
     "vlr_total": 70.0,
@@ -6270,7 +6424,7 @@
     "source_file": "chips.xlsx"
   },
   {
-    "pedido_unico": "P570",
+    "pedido_unico": "P584",
     "cnpj_cpf": "47.921.310/0001-02",
     "emissao": "2026-04-23",
     "vlr_total": 46.0,
@@ -6373,6 +6527,17 @@
     "cnpj_cpf": "60.197.842/0001-07",
     "emissao": "2026-04-24",
     "vlr_total": 35.0,
+    "nome_vendedor": "HELLEN GOMES",
+    "supervisor": "MARIVALDO SERRA",
+    "gerente": "Marivaldo",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1156408.0",
+    "cnpj_cpf": "100.897.855-84",
+    "emissao": "2026-04-27",
+    "vlr_total": 46.0,
     "nome_vendedor": "HELLEN GOMES",
     "supervisor": "MARIVALDO SERRA",
     "gerente": "Marivaldo",
@@ -6512,6 +6677,17 @@
     "source_file": "chips.xlsx"
   },
   {
+    "pedido_unico": "1158841.0",
+    "cnpj_cpf": "13.668.188/0001-92",
+    "emissao": "2026-04-29",
+    "vlr_total": 12.0,
+    "nome_vendedor": "HELLEN GOMES",
+    "supervisor": "MARIVALDO SERRA",
+    "gerente": "Marivaldo",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
     "pedido_unico": "1145916.0",
     "cnpj_cpf": "48.346.638/0001-05",
     "emissao": "2026-04-20",
@@ -6556,7 +6732,7 @@
     "source_file": "chips.xlsx"
   },
   {
-    "pedido_unico": "P596",
+    "pedido_unico": "P612",
     "cnpj_cpf": "47.921.310/0001-02",
     "emissao": "2026-04-23",
     "vlr_total": 115.0,
@@ -6567,10 +6743,21 @@
     "source_file": "chips.xlsx"
   },
   {
-    "pedido_unico": "P597",
+    "pedido_unico": "P613",
     "cnpj_cpf": "47.921.310/0001-02",
     "emissao": "2026-04-23",
     "vlr_total": 60.0,
+    "nome_vendedor": "HELLEN GOMES",
+    "supervisor": "MARIVALDO SERRA",
+    "gerente": "Marivaldo",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1156408.0",
+    "cnpj_cpf": "100.897.855-84",
+    "emissao": "2026-04-27",
+    "vlr_total": 23.0,
     "nome_vendedor": "HELLEN GOMES",
     "supervisor": "MARIVALDO SERRA",
     "gerente": "Marivaldo",
@@ -8470,7 +8657,7 @@
     "source_file": "chips.xlsx"
   },
   {
-    "pedido_unico": "P770",
+    "pedido_unico": "P787",
     "cnpj_cpf": "12.793.948/0001-20",
     "emissao": "2026-04-22",
     "vlr_total": 17.0,
@@ -8525,7 +8712,7 @@
     "source_file": "chips.xlsx"
   },
   {
-    "pedido_unico": "P775",
+    "pedido_unico": "P792",
     "cnpj_cpf": "12.793.948/0001-20",
     "emissao": "2026-04-22",
     "vlr_total": 35.0,
@@ -8547,7 +8734,7 @@
     "source_file": "chips.xlsx"
   },
   {
-    "pedido_unico": "P777",
+    "pedido_unico": "P794",
     "cnpj_cpf": "12.793.948/0001-20",
     "emissao": "2026-04-22",
     "vlr_total": 12.0,
@@ -8580,6 +8767,105 @@
     "source_file": "chips.xlsx"
   },
   {
+    "pedido_unico": "1157588.0",
+    "cnpj_cpf": "44.521.206/0001-32",
+    "emissao": "2026-04-28",
+    "vlr_total": 17.0,
+    "nome_vendedor": "WESCKEY FONTES",
+    "supervisor": "JEIZIANE",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157571.0",
+    "cnpj_cpf": "38.657.034/0001-26",
+    "emissao": "2026-04-28",
+    "vlr_total": 9.0,
+    "nome_vendedor": "WESCKEY FONTES",
+    "supervisor": "JEIZIANE",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157571.0",
+    "cnpj_cpf": "38.657.034/0001-26",
+    "emissao": "2026-04-28",
+    "vlr_total": 9.0,
+    "nome_vendedor": "WESCKEY FONTES",
+    "supervisor": "JEIZIANE",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157580.0",
+    "cnpj_cpf": "54.730.944/0001-43",
+    "emissao": "2026-04-28",
+    "vlr_total": 45.0,
+    "nome_vendedor": "WESCKEY FONTES",
+    "supervisor": "JEIZIANE",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157580.0",
+    "cnpj_cpf": "54.730.944/0001-43",
+    "emissao": "2026-04-28",
+    "vlr_total": 46.0,
+    "nome_vendedor": "WESCKEY FONTES",
+    "supervisor": "JEIZIANE",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157580.0",
+    "cnpj_cpf": "54.730.944/0001-43",
+    "emissao": "2026-04-28",
+    "vlr_total": 27.0,
+    "nome_vendedor": "WESCKEY FONTES",
+    "supervisor": "JEIZIANE",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157580.0",
+    "cnpj_cpf": "54.730.944/0001-43",
+    "emissao": "2026-04-28",
+    "vlr_total": 27.0,
+    "nome_vendedor": "WESCKEY FONTES",
+    "supervisor": "JEIZIANE",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157580.0",
+    "cnpj_cpf": "54.730.944/0001-43",
+    "emissao": "2026-04-28",
+    "vlr_total": 46.0,
+    "nome_vendedor": "WESCKEY FONTES",
+    "supervisor": "JEIZIANE",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157580.0",
+    "cnpj_cpf": "54.730.944/0001-43",
+    "emissao": "2026-04-28",
+    "vlr_total": 45.0,
+    "nome_vendedor": "WESCKEY FONTES",
+    "supervisor": "JEIZIANE",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
     "pedido_unico": "1136594.0",
     "cnpj_cpf": "41.373.822/0001-03",
     "emissao": "2026-04-14",
@@ -8650,6 +8936,204 @@
     "cnpj_cpf": "59.673.280/0001-41",
     "emissao": "2026-04-14",
     "vlr_total": 14.0,
+    "nome_vendedor": "WESCKEY FONTES",
+    "supervisor": "JEIZIANE",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157601.0",
+    "cnpj_cpf": "59.673.280/0001-41",
+    "emissao": "2026-04-28",
+    "vlr_total": 35.0,
+    "nome_vendedor": "WESCKEY FONTES",
+    "supervisor": "JEIZIANE",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157601.0",
+    "cnpj_cpf": "59.673.280/0001-41",
+    "emissao": "2026-04-28",
+    "vlr_total": 14.0,
+    "nome_vendedor": "WESCKEY FONTES",
+    "supervisor": "JEIZIANE",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157601.0",
+    "cnpj_cpf": "59.673.280/0001-41",
+    "emissao": "2026-04-28",
+    "vlr_total": 14.0,
+    "nome_vendedor": "WESCKEY FONTES",
+    "supervisor": "JEIZIANE",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1158034.0",
+    "cnpj_cpf": "60.906.078/0001-00",
+    "emissao": "2026-04-28",
+    "vlr_total": 23.0,
+    "nome_vendedor": "WESCKEY FONTES",
+    "supervisor": "JEIZIANE",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1158034.0",
+    "cnpj_cpf": "60.906.078/0001-00",
+    "emissao": "2026-04-28",
+    "vlr_total": 14.0,
+    "nome_vendedor": "WESCKEY FONTES",
+    "supervisor": "JEIZIANE",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1158034.0",
+    "cnpj_cpf": "60.906.078/0001-00",
+    "emissao": "2026-04-28",
+    "vlr_total": 9.0,
+    "nome_vendedor": "WESCKEY FONTES",
+    "supervisor": "JEIZIANE",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1158034.0",
+    "cnpj_cpf": "60.906.078/0001-00",
+    "emissao": "2026-04-28",
+    "vlr_total": 9.0,
+    "nome_vendedor": "WESCKEY FONTES",
+    "supervisor": "JEIZIANE",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1158034.0",
+    "cnpj_cpf": "60.906.078/0001-00",
+    "emissao": "2026-04-28",
+    "vlr_total": 9.0,
+    "nome_vendedor": "WESCKEY FONTES",
+    "supervisor": "JEIZIANE",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1158034.0",
+    "cnpj_cpf": "60.906.078/0001-00",
+    "emissao": "2026-04-28",
+    "vlr_total": 14.0,
+    "nome_vendedor": "WESCKEY FONTES",
+    "supervisor": "JEIZIANE",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1158034.0",
+    "cnpj_cpf": "60.906.078/0001-00",
+    "emissao": "2026-04-28",
+    "vlr_total": 23.0,
+    "nome_vendedor": "WESCKEY FONTES",
+    "supervisor": "JEIZIANE",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1158034.0",
+    "cnpj_cpf": "60.906.078/0001-00",
+    "emissao": "2026-04-28",
+    "vlr_total": 14.0,
+    "nome_vendedor": "WESCKEY FONTES",
+    "supervisor": "JEIZIANE",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1158034.0",
+    "cnpj_cpf": "60.906.078/0001-00",
+    "emissao": "2026-04-28",
+    "vlr_total": 9.0,
+    "nome_vendedor": "WESCKEY FONTES",
+    "supervisor": "JEIZIANE",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1158034.0",
+    "cnpj_cpf": "60.906.078/0001-00",
+    "emissao": "2026-04-28",
+    "vlr_total": 23.0,
+    "nome_vendedor": "WESCKEY FONTES",
+    "supervisor": "JEIZIANE",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157580.0",
+    "cnpj_cpf": "54.730.944/0001-43",
+    "emissao": "2026-04-28",
+    "vlr_total": 23.0,
+    "nome_vendedor": "WESCKEY FONTES",
+    "supervisor": "JEIZIANE",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157601.0",
+    "cnpj_cpf": "59.673.280/0001-41",
+    "emissao": "2026-04-28",
+    "vlr_total": 46.0,
+    "nome_vendedor": "WESCKEY FONTES",
+    "supervisor": "JEIZIANE",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157601.0",
+    "cnpj_cpf": "59.673.280/0001-41",
+    "emissao": "2026-04-28",
+    "vlr_total": 24.0,
+    "nome_vendedor": "WESCKEY FONTES",
+    "supervisor": "JEIZIANE",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1158034.0",
+    "cnpj_cpf": "60.906.078/0001-00",
+    "emissao": "2026-04-28",
+    "vlr_total": 23.0,
+    "nome_vendedor": "WESCKEY FONTES",
+    "supervisor": "JEIZIANE",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1158034.0",
+    "cnpj_cpf": "60.906.078/0001-00",
+    "emissao": "2026-04-28",
+    "vlr_total": 12.0,
     "nome_vendedor": "WESCKEY FONTES",
     "supervisor": "JEIZIANE",
     "gerente": "Sandro",
@@ -8837,6 +9321,17 @@
     "cnpj_cpf": "11.270.637/0001-14",
     "emissao": "2026-04-17",
     "vlr_total": 12.0,
+    "nome_vendedor": "ANDRÉ RODRIGUES",
+    "supervisor": "ANDREIA MEDEIROS",
+    "gerente": "Marivaldo",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157054.0",
+    "cnpj_cpf": "14.275.665/0001-12",
+    "emissao": "2026-04-28",
+    "vlr_total": 36.0,
     "nome_vendedor": "ANDRÉ RODRIGUES",
     "supervisor": "ANDREIA MEDEIROS",
     "gerente": "Marivaldo",
@@ -10318,6 +10813,116 @@
     "source_file": "chips.xlsx"
   },
   {
+    "pedido_unico": "1157477.0",
+    "cnpj_cpf": "64.729.664/0001-79",
+    "emissao": "2026-04-28",
+    "vlr_total": 17.0,
+    "nome_vendedor": "CARMILTON GOMES (118)",
+    "supervisor": "LUCAS SILVA",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157477.0",
+    "cnpj_cpf": "64.729.664/0001-79",
+    "emissao": "2026-04-28",
+    "vlr_total": 9.0,
+    "nome_vendedor": "CARMILTON GOMES (118)",
+    "supervisor": "LUCAS SILVA",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157477.0",
+    "cnpj_cpf": "64.729.664/0001-79",
+    "emissao": "2026-04-28",
+    "vlr_total": 14.0,
+    "nome_vendedor": "CARMILTON GOMES (118)",
+    "supervisor": "LUCAS SILVA",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157477.0",
+    "cnpj_cpf": "64.729.664/0001-79",
+    "emissao": "2026-04-28",
+    "vlr_total": 14.0,
+    "nome_vendedor": "CARMILTON GOMES (118)",
+    "supervisor": "LUCAS SILVA",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157477.0",
+    "cnpj_cpf": "64.729.664/0001-79",
+    "emissao": "2026-04-28",
+    "vlr_total": 9.0,
+    "nome_vendedor": "CARMILTON GOMES (118)",
+    "supervisor": "LUCAS SILVA",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157477.0",
+    "cnpj_cpf": "64.729.664/0001-79",
+    "emissao": "2026-04-28",
+    "vlr_total": 9.0,
+    "nome_vendedor": "CARMILTON GOMES (118)",
+    "supervisor": "LUCAS SILVA",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157477.0",
+    "cnpj_cpf": "64.729.664/0001-79",
+    "emissao": "2026-04-28",
+    "vlr_total": 14.0,
+    "nome_vendedor": "CARMILTON GOMES (118)",
+    "supervisor": "LUCAS SILVA",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157477.0",
+    "cnpj_cpf": "64.729.664/0001-79",
+    "emissao": "2026-04-28",
+    "vlr_total": 14.0,
+    "nome_vendedor": "CARMILTON GOMES (118)",
+    "supervisor": "LUCAS SILVA",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157477.0",
+    "cnpj_cpf": "64.729.664/0001-79",
+    "emissao": "2026-04-28",
+    "vlr_total": 9.0,
+    "nome_vendedor": "CARMILTON GOMES (118)",
+    "supervisor": "LUCAS SILVA",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157477.0",
+    "cnpj_cpf": "64.729.664/0001-79",
+    "emissao": "2026-04-28",
+    "vlr_total": 12.0,
+    "nome_vendedor": "CARMILTON GOMES (118)",
+    "supervisor": "LUCAS SILVA",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
     "pedido_unico": "1134493.0",
     "cnpj_cpf": "30.481.050/0001-07",
     "emissao": "2026-04-14",
@@ -10344,6 +10949,17 @@
     "cnpj_cpf": "30.481.050/0001-07",
     "emissao": "2026-04-14",
     "vlr_total": 104.0,
+    "nome_vendedor": "CARMILTON GOMES (118)",
+    "supervisor": "LUCAS SILVA",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157218.0",
+    "cnpj_cpf": "53.978.283/0001-07",
+    "emissao": "2026-04-28",
+    "vlr_total": 74.0,
     "nome_vendedor": "CARMILTON GOMES (118)",
     "supervisor": "LUCAS SILVA",
     "gerente": "Sandro",
@@ -10696,6 +11312,17 @@
     "cnpj_cpf": "48.346.638/0001-05",
     "emissao": "2026-04-20",
     "vlr_total": 52.0,
+    "nome_vendedor": "HELLEN GOMES",
+    "supervisor": "MARIVALDO SERRA",
+    "gerente": "Marivaldo",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1156422.0",
+    "cnpj_cpf": "58.274.656/0001-82",
+    "emissao": "2026-04-27",
+    "vlr_total": 162.0,
     "nome_vendedor": "HELLEN GOMES",
     "supervisor": "MARIVALDO SERRA",
     "gerente": "Marivaldo",
@@ -12320,6 +12947,28 @@
     "source_file": "chips.xlsx"
   },
   {
+    "pedido_unico": "1157018.0",
+    "cnpj_cpf": "41.892.560/0001-85",
+    "emissao": "2026-04-28",
+    "vlr_total": 69.0,
+    "nome_vendedor": "MAURÍCIO SILVA",
+    "supervisor": "LUCAS SILVA",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157018.0",
+    "cnpj_cpf": "41.892.560/0001-85",
+    "emissao": "2026-04-28",
+    "vlr_total": 36.0,
+    "nome_vendedor": "MAURÍCIO SILVA",
+    "supervisor": "LUCAS SILVA",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
     "pedido_unico": "1134549.0",
     "cnpj_cpf": "17.200.311/0001-05",
     "emissao": "2026-04-14",
@@ -12367,6 +13016,28 @@
     "pedido_unico": "1147307.0",
     "cnpj_cpf": "01.411.393/0001-99",
     "emissao": "2026-04-22",
+    "vlr_total": 12.0,
+    "nome_vendedor": "MAURÍCIO SILVA",
+    "supervisor": "LUCAS SILVA",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157021.0",
+    "cnpj_cpf": "01.411.393/0001-99",
+    "emissao": "2026-04-28",
+    "vlr_total": 46.0,
+    "nome_vendedor": "MAURÍCIO SILVA",
+    "supervisor": "LUCAS SILVA",
+    "gerente": "Sandro",
+    "grupo": "VENDAS",
+    "source_file": "chips.xlsx"
+  },
+  {
+    "pedido_unico": "1157021.0",
+    "cnpj_cpf": "01.411.393/0001-99",
+    "emissao": "2026-04-28",
     "vlr_total": 12.0,
     "nome_vendedor": "MAURÍCIO SILVA",
     "supervisor": "LUCAS SILVA",
@@ -12782,7 +13453,7 @@
     "source_file": "chips.xlsx"
   },
   {
-    "pedido_unico": "P1162",
+    "pedido_unico": "P1223",
     "cnpj_cpf": "02.146.164/0001-57",
     "emissao": "2026-04-22",
     "vlr_total": 74.0,
@@ -12793,7 +13464,7 @@
     "source_file": "chips.xlsx"
   },
   {
-    "pedido_unico": "P1163",
+    "pedido_unico": "P1224",
     "cnpj_cpf": "02.146.164/0001-57",
     "emissao": "2026-04-22",
     "vlr_total": 162.0,
@@ -12826,7 +13497,7 @@
     "source_file": "chips.xlsx"
   },
   {
-    "pedido_unico": "P1166",
+    "pedido_unico": "P1227",
     "cnpj_cpf": "07.869.626/0004-20",
     "emissao": "2026-04-22",
     "vlr_total": 52.0,
@@ -12837,7 +13508,7 @@
     "source_file": "chips.xlsx"
   },
   {
-    "pedido_unico": "P1167",
+    "pedido_unico": "P1228",
     "cnpj_cpf": "07.869.626/0004-20",
     "emissao": "2026-04-22",
     "vlr_total": 52.0,
