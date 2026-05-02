@@ -479,12 +479,41 @@
     URL.revokeObjectURL(url);
   }
 
+  // == FUNÇÃO carregarDados() ATUALIZADA COM AUTO-SELEÇÃO E DEBUG
   function carregarDados() {
     fetch('data.json')
       .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
       .then(data => {
         allData = data || [];
 
+        // --- AUTO-SELEÇÃO DE MÊS: se mês atual não tiver dados, usa primeiro mês disponível no JSON
+        const mesesDisponiveis = Array.from(new Set((allData || [])
+          .map(r => (r.emissao || '').slice(0,7))
+          .filter(m => m && m !== 'unknown')));
+        // debug
+        console.log('mesesDisponiveis:', mesesDisponiveis, 'MES_ATUAL:', MES_ATUAL);
+
+        if (selectedMonth === 'current') {
+          if (mesesDisponiveis.length && !mesesDisponiveis.includes(MES_ATUAL)) {
+            selectedMonth = mesesDisponiveis[0];
+            // adiciona opção no select se necessário e ajusta o label
+            if (![...monthSelect.options].some(o => o.value === selectedMonth)) {
+              const opt = document.createElement('option');
+              opt.value = selectedMonth;
+              const [y, m] = selectedMonth.split('-');
+              const lbl = `${MESES_PT[Number(m)-1]} ${y}`;
+              opt.text = lbl;
+              monthSelect.appendChild(opt);
+            }
+            monthSelect.value = selectedMonth;
+            console.log('Mês atual sem dados — selecionando automaticamente:', selectedMonth);
+          } else {
+            // mantém 'current' se MES_ATUAL estiver presente ou não há meses disponíveis
+            monthSelect.value = 'current';
+          }
+        }
+
+        // calcula valores de campanha no período (usando MES_ATUAL para "período" de avaliação)
         const periodo = allData.filter(r => getMes(r.emissao) === MES_ATUAL);
         campanhaTotalPeriodo = periodo.reduce((s,r) => s + (Number(r.vlr_total)||0), 0);
         const cnpjsPeriodo   = new Set(periodo.map(r => safe(r.cnpj_cpf)).filter(Boolean));
@@ -500,6 +529,7 @@
         alert('Erro ao carregar data.json.\nRode: python -m http.server 8000');
       });
   }
+  // == fim carregarDados()
 
   btnRemoveNoSales.addEventListener('click', () => {
     removeNoSales = !removeNoSales;
